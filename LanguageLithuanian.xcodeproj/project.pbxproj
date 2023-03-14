@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961342AD29C0A2BE00FA68AF /* LanguageLithuanianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342AC29C0A2BE00FA68AF /* LanguageLithuanianApp.swift */; };
+		961342AF29C0A2BE00FA68AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342AE29C0A2BE00FA68AF /* ContentView.swift */; };
+		961342B129C0A2C000FA68AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961342B029C0A2C000FA68AF /* Assets.xcassets */; };
+		961342B429C0A2C000FA68AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961342B329C0A2C000FA68AF /* Preview Assets.xcassets */; };
+		961342B629C0A2C000FA68AF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342B529C0A2C000FA68AF /* Persistence.swift */; };
+		961342B929C0A2C000FA68AF /* LanguageLithuanian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 961342B729C0A2C000FA68AF /* LanguageLithuanian.xcdatamodeld */; };
+		961342C329C0A2C000FA68AF /* LanguageLithuanianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342C229C0A2C000FA68AF /* LanguageLithuanianTests.swift */; };
+		961342CD29C0A2C000FA68AF /* LanguageLithuanianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342CC29C0A2C000FA68AF /* LanguageLithuanianUITests.swift */; };
+		961342CF29C0A2C000FA68AF /* LanguageLithuanianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961342CE29C0A2C000FA68AF /* LanguageLithuanianUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		961342BF29C0A2C000FA68AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961342A129C0A2BE00FA68AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961342A829C0A2BE00FA68AF;
+			remoteInfo = LanguageLithuanian;
+		};
+		961342C929C0A2C000FA68AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961342A129C0A2BE00FA68AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961342A829C0A2BE00FA68AF;
+			remoteInfo = LanguageLithuanian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		961342A929C0A2BE00FA68AF /* LanguageLithuanian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageLithuanian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961342AC29C0A2BE00FA68AF /* LanguageLithuanianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLithuanianApp.swift; sourceTree = "<group>"; };
+		961342AE29C0A2BE00FA68AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		961342B029C0A2C000FA68AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		961342B329C0A2C000FA68AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		961342B529C0A2C000FA68AF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		961342B829C0A2C000FA68AF /* LanguageLithuanian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LanguageLithuanian.xcdatamodel; sourceTree = "<group>"; };
+		961342BE29C0A2C000FA68AF /* LanguageLithuanianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLithuanianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961342C229C0A2C000FA68AF /* LanguageLithuanianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLithuanianTests.swift; sourceTree = "<group>"; };
+		961342C829C0A2C000FA68AF /* LanguageLithuanianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLithuanianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961342CC29C0A2C000FA68AF /* LanguageLithuanianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLithuanianUITests.swift; sourceTree = "<group>"; };
+		961342CE29C0A2C000FA68AF /* LanguageLithuanianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLithuanianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961342A629C0A2BE00FA68AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342BB29C0A2C000FA68AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342C529C0A2C000FA68AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961342A029C0A2BE00FA68AF = {
+			isa = PBXGroup;
+			children = (
+				961342AB29C0A2BE00FA68AF /* LanguageLithuanian */,
+				961342C129C0A2C000FA68AF /* LanguageLithuanianTests */,
+				961342CB29C0A2C000FA68AF /* LanguageLithuanianUITests */,
+				961342AA29C0A2BE00FA68AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961342AA29C0A2BE00FA68AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961342A929C0A2BE00FA68AF /* LanguageLithuanian.app */,
+				961342BE29C0A2C000FA68AF /* LanguageLithuanianTests.xctest */,
+				961342C829C0A2C000FA68AF /* LanguageLithuanianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961342AB29C0A2BE00FA68AF /* LanguageLithuanian */ = {
+			isa = PBXGroup;
+			children = (
+				961342AC29C0A2BE00FA68AF /* LanguageLithuanianApp.swift */,
+				961342AE29C0A2BE00FA68AF /* ContentView.swift */,
+				961342B029C0A2C000FA68AF /* Assets.xcassets */,
+				961342B529C0A2C000FA68AF /* Persistence.swift */,
+				961342B729C0A2C000FA68AF /* LanguageLithuanian.xcdatamodeld */,
+				961342B229C0A2C000FA68AF /* Preview Content */,
+			);
+			path = LanguageLithuanian;
+			sourceTree = "<group>";
+		};
+		961342B229C0A2C000FA68AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				961342B329C0A2C000FA68AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		961342C129C0A2C000FA68AF /* LanguageLithuanianTests */ = {
+			isa = PBXGroup;
+			children = (
+				961342C229C0A2C000FA68AF /* LanguageLithuanianTests.swift */,
+			);
+			path = LanguageLithuanianTests;
+			sourceTree = "<group>";
+		};
+		961342CB29C0A2C000FA68AF /* LanguageLithuanianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				961342CC29C0A2C000FA68AF /* LanguageLithuanianUITests.swift */,
+				961342CE29C0A2C000FA68AF /* LanguageLithuanianUITestsLaunchTests.swift */,
+			);
+			path = LanguageLithuanianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961342A829C0A2BE00FA68AF /* LanguageLithuanian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961342D229C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanian" */;
+			buildPhases = (
+				961342A529C0A2BE00FA68AF /* Sources */,
+				961342A629C0A2BE00FA68AF /* Frameworks */,
+				961342A729C0A2BE00FA68AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageLithuanian;
+			productName = LanguageLithuanian;
+			productReference = 961342A929C0A2BE00FA68AF /* LanguageLithuanian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		961342BD29C0A2C000FA68AF /* LanguageLithuanianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961342D529C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanianTests" */;
+			buildPhases = (
+				961342BA29C0A2C000FA68AF /* Sources */,
+				961342BB29C0A2C000FA68AF /* Frameworks */,
+				961342BC29C0A2C000FA68AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961342C029C0A2C000FA68AF /* PBXTargetDependency */,
+			);
+			name = LanguageLithuanianTests;
+			productName = LanguageLithuanianTests;
+			productReference = 961342BE29C0A2C000FA68AF /* LanguageLithuanianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		961342C729C0A2C000FA68AF /* LanguageLithuanianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961342D829C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanianUITests" */;
+			buildPhases = (
+				961342C429C0A2C000FA68AF /* Sources */,
+				961342C529C0A2C000FA68AF /* Frameworks */,
+				961342C629C0A2C000FA68AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961342CA29C0A2C000FA68AF /* PBXTargetDependency */,
+			);
+			name = LanguageLithuanianUITests;
+			productName = LanguageLithuanianUITests;
+			productReference = 961342C829C0A2C000FA68AF /* LanguageLithuanianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961342A129C0A2BE00FA68AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					961342A829C0A2BE00FA68AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					961342BD29C0A2C000FA68AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 961342A829C0A2BE00FA68AF;
+					};
+					961342C729C0A2C000FA68AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 961342A829C0A2BE00FA68AF;
+					};
+				};
+			};
+			buildConfigurationList = 961342A429C0A2BE00FA68AF /* Build configuration list for PBXProject "LanguageLithuanian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961342A029C0A2BE00FA68AF;
+			productRefGroup = 961342AA29C0A2BE00FA68AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961342A829C0A2BE00FA68AF /* LanguageLithuanian */,
+				961342BD29C0A2C000FA68AF /* LanguageLithuanianTests */,
+				961342C729C0A2C000FA68AF /* LanguageLithuanianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961342A729C0A2BE00FA68AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961342B429C0A2C000FA68AF /* Preview Assets.xcassets in Resources */,
+				961342B129C0A2C000FA68AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342BC29C0A2C000FA68AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342C629C0A2C000FA68AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961342A529C0A2BE00FA68AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961342B929C0A2C000FA68AF /* LanguageLithuanian.xcdatamodeld in Sources */,
+				961342B629C0A2C000FA68AF /* Persistence.swift in Sources */,
+				961342AF29C0A2BE00FA68AF /* ContentView.swift in Sources */,
+				961342AD29C0A2BE00FA68AF /* LanguageLithuanianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342BA29C0A2C000FA68AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961342C329C0A2C000FA68AF /* LanguageLithuanianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961342C429C0A2C000FA68AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961342CD29C0A2C000FA68AF /* LanguageLithuanianUITests.swift in Sources */,
+				961342CF29C0A2C000FA68AF /* LanguageLithuanianUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		961342C029C0A2C000FA68AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961342A829C0A2BE00FA68AF /* LanguageLithuanian */;
+			targetProxy = 961342BF29C0A2C000FA68AF /* PBXContainerItemProxy */;
+		};
+		961342CA29C0A2C000FA68AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961342A829C0A2BE00FA68AF /* LanguageLithuanian */;
+			targetProxy = 961342C929C0A2C000FA68AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		961342D029C0A2C000FA68AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		961342D129C0A2C000FA68AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961342D329C0A2C000FA68AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageLithuanian/Preview Content\"";
+				DEVELOPMENT_TEAM = C2694H28CX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		961342D429C0A2C000FA68AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageLithuanian/Preview Content\"";
+				DEVELOPMENT_TEAM = C2694H28CX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		961342D629C0A2C000FA68AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2694H28CX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageLithuanian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanguageLithuanian";
+			};
+			name = Debug;
+		};
+		961342D729C0A2C000FA68AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2694H28CX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageLithuanian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanguageLithuanian";
+			};
+			name = Release;
+		};
+		961342D929C0A2C000FA68AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2694H28CX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageLithuanian;
+			};
+			name = Debug;
+		};
+		961342DA29C0A2C000FA68AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2694H28CX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tejaskhartude.LanguageLithuanianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageLithuanian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961342A429C0A2BE00FA68AF /* Build configuration list for PBXProject "LanguageLithuanian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961342D029C0A2C000FA68AF /* Debug */,
+				961342D129C0A2C000FA68AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961342D229C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961342D329C0A2C000FA68AF /* Debug */,
+				961342D429C0A2C000FA68AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961342D529C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961342D629C0A2C000FA68AF /* Debug */,
+				961342D729C0A2C000FA68AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961342D829C0A2C000FA68AF /* Build configuration list for PBXNativeTarget "LanguageLithuanianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961342D929C0A2C000FA68AF /* Debug */,
+				961342DA29C0A2C000FA68AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		961342B729C0A2C000FA68AF /* LanguageLithuanian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				961342B829C0A2C000FA68AF /* LanguageLithuanian.xcdatamodel */,
+			);
+			currentVersion = 961342B829C0A2C000FA68AF /* LanguageLithuanian.xcdatamodel */;
+			path = LanguageLithuanian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 961342A129C0A2BE00FA68AF /* Project object */;
+}
